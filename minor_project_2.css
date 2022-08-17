@@ -1,0 +1,348 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+  }
+
+  .main{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    
+  }
+
+  .left{
+    height: 100%;
+    width: 50%;
+    background-color: #e4d4cf;
+    position: relative;
+  }
+
+  .right{
+    height: 100%;
+    width: 50%;
+    background-color:#eac8c8;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+
+  .photo1{
+    
+    height: 40%;
+    width: 25%;
+    background-image: url(https://images.unsplash.com/photo-1658387067884-5716eb8379ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMzZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+
+  .photo2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .photo2{
+    background-image: url(https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80);
+
+    height: 40%;
+    width: 25%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  .innerphoto{
+
+    height: 100%;
+    width: 100%;
+    background-color: #ffcbcb;
+    margin-top: 100%;
+    position: absolute;
+   
+    
+    
+    
+  }
+
+  #innerphoto1{
+    animation: pic2 3s cubic-bezier(0.19, 1, 0.22, 1) 2s infinite both;
+    animation-direction: reverse;
+  }
+  #innerphoto2{
+    background-color:rgb(246, 222, 222) ;
+    animation: pic2 3s cubic-bezier(0.19, 1, 0.22, 1) 2s infinite both;
+
+  }
+  @keyframes pic2{
+    0%{
+       bottom: 100%;
+      
+    }
+    50%{
+      bottom: 0%;
+      
+    }
+    100%{
+      bottom: -100%;
+      
+    }
+  }
+  
+  
+  
+  
+
+ 
+
+  .upperleft{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    
+
+
+  }
+  #big73{
+    position: absolute;
+    top: 59%;
+    left: 63%;
+    font-size: 150px;
+    font-weight: 500;
+    animation-name: big;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    
+    
+    
+    
+    
+  }
+
+  @keyframes big {
+    from{
+      top: 59%;
+      left: 90%;
+
+
+    }
+
+    to{
+      top: 59%;
+      left: 63%;
+
+    }
+    
+  }
+  #lexposition{
+    font-size: 50px;
+    font-weight: 100;
+    margin-left: -5%;
+    margin-top: 65px;
+    animation-name: bigtextleft;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    
+    
+    
+  }
+
+  @keyframes bigtextleft {
+    from{
+      margin-left: 20%;
+      margin-top: 65px;
+    }
+    to{
+      margin-left:-5%;
+      margin-top: 65px;
+    }
+    
+  }
+
+  #culture{
+    position: absolute;
+    margin-left: -4%;
+    margin-top: 50px;
+    
+    
+    
+    
+    
+  }
+
+  #lorem{
+    margin-top: 70%;
+    margin-left: 25%;
+    font-size: 15px;
+    animation-name: lorem;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    
+  }
+  @keyframes lorem {
+    from{
+      margin-top: 70%;
+      margin-left: 35%;
+
+
+    }
+
+    to{
+      margin-top: 70%;
+      margin-left: 25%;
+
+    }
+    
+  }
+
+  .upperright{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  #small76{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    font-weight: 500;
+    animation-name: small76;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    
+  }
+
+  @keyframes small76 {
+    from{
+      top: 50%;
+      left: 20%;
+
+    }
+    to{
+      top: 50%;
+      left: 30%;
+
+    }
+    
+  }
+
+  #lorem_right{
+    margin-left: 45%;
+    margin-top: 18%;
+    animation-name: lorem_right;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    
+  }
+
+  @keyframes lorem_right {
+    from{
+      margin-left:30% ;
+      margin-top:18% ;
+    }
+    to{
+      margin-left:45% ;
+      margin-top: 18%;
+    }
+    
+  }
+
+  #bigtext{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-weight: 500;
+    font-family:gilroy;
+    animation-name: bigtext;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    
+
+  }
+
+  @keyframes bigtext {
+    from{
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    to{
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    
+  }
+
+  .right > h3{
+    margin-top: 100%;
+    margin-left: 38%;
+    transform: rotate(90deg);
+    font-weight: 100;
+  }
+  
+  .innerright{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 100%;
+    background-color: rgba(147, 215, 75, 0.459);
+    background-color:rgba(246, 222, 222, 0.632) ;
+    animation: pic2 3s cubic-bezier(0.19, 1, 0.22, 1) 2s infinite both;
+    
+
+
+  }
+  .irleft{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 100%;
+    background-color: rgb(181, 188, 171);
+    background-color:rgba(246, 222, 222, 0.683) ;
+    animation: pic2 3s cubic-bezier(0.19, 1, 0.22, 1) 2s infinite both;
+    animation-direction: reverse;
+
+
+  }
+
+
+  
+    
+
+
+
+
